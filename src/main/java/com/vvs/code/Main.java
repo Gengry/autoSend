@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) {
-        final String phone = "15130662339";
+        final String phone = "18633077951";
         SendInterBeanFactoryBuilder sendInterBeanFactoryBuilder = new SendInterBeanFactoryBuilder();
         final SendInterBeanFactory sendInterBeanFactory = sendInterBeanFactoryBuilder.builder();
         while (true){

